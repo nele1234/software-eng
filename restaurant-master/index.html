@@ -42,9 +42,18 @@
         }
         
         #logo {
-            width: 150px;
+            width: 150px !important;
             height: 150px;
             border-radius: 50%;
+        }
+        @media only screen and (max-width: 767px) {
+            img{
+                width: 100vw !important;
+                margin-top: 5%;
+            }
+            br{
+                display: none !important
+            }
         }
     </style>
 
